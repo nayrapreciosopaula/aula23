@@ -1,0 +1,173 @@
+<! DOCTYPE html>
+<html lang="en">
+<cabeça>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <título>Meu site responsivo</título>
+
+    <estilo>
+        * {
+            tamanho de caixa: border-box;
+        }
+
+        html {
+            fonte-família: "Lucida Sans", sans-serif;
+        }
+
+        corpo{
+            cor de fundo: bisque;
+        }
+
+        [class*="col-"]{
+            flutuar: à esquerda;
+            preenchimento: 15px;
+        }
+
+ . linha::depois {
+            conteúdo: "";
+            claro: ambos;
+            exibição: bloco;
+        }
+
+ . cabeçalho{
+            cor de fundo: coral;
+            cor: anti-branco;
+            preenchimento: 15px;
+        }
+
+ . menu ul{
+            tipo de estilo de lista: nenhum;
+            margem: 0;
+            preenchimento: 0;
+        }
+
+ . menu li{
+            preenchimento: 8px;
+            margem-inferior: 7px;
+            cor de fundo: azul-flor-de-milho;
+            box-shadow:0 1px 3px rgba(0, 0, 0, 0,12), 0 1px 2px rgba(0, 0, 0, 0, 0,24);
+        }
+
+ . menu li:pairar{
+            cor de fundo: lightblue;
+        }
+
+ . à parte{
+            cor de fundo: cadete azul;
+            cor: chocolate;
+            alinhamento de texto: centro;
+            tamanho da fonte:12px;
+            preenchimento: 15px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0,12), 0 1px 2px rgba(0, 0, 0, 0, 0,24);
+        }
+
+ . rodapé{
+            cor de fundo: azul-flor-de-milho;
+            cor: anti-branco;
+            alinhamento de texto: centro;
+            tamanho da fonte:12px;
+            preenchimento: 15px;
+        }
+
+ . centro de cores{
+            cor de fundo: cadete azul;
+            cor: #ffffff;
+            margem-topo: 10px;
+        }
+
+ . col-1 {
+            largura: 8,33%;
+        }
+
+ . col-2 {
+            largura: 16,66%;
+        }
+
+ . col-3 {
+            largura: 25%;
+        }
+
+ . col-4 {
+            largura: 33,33%;
+        }
+
+ . col-5 {
+            largura: 41,66%;
+        }
+
+ . col-6 {
+            largura: 50%;
+        }
+
+ . col-7 {
+            largura: 58,33%;
+        }
+
+ . col-8 {
+            largura: 66,66%;
+        }
+ . col-9 {
+            largura: 75%;
+        }
+ . col-10 {
+            largura: 83,33%;
+        }
+ . col-11 {
+            largura: 91,66%;
+        }
+ . col-12 {
+            largura: 100%;
+        }
+
+        @media única tela e (largura máxima: 768px){
+            [class*="col-"]{
+                largura: 100%;
+            }
+            corpo{
+                cor de fundo: darkseagreen;
+            }
+        }
+
+    </estilo>
+
+</cabeça>
+<corpo>
+    <div class="cabeçalho">
+        <h1>Título do site</h1>
+    </div>
+
+    <div class="row">
+        <div class=" menu col-3">
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+        </div>
+        < div class="col-6 color-center">
+            <p>
+                Texto de centro
+            </p>
+        </div>
+    
+        <div class="col-3 ">
+            <div class="de lado">
+                <h2>Titulo 1</h2>
+                <p>Texto 1</p>
+                <h2>Texto 2</h2>
+                <p>Texto 3</p>
+                <h2>Titulo 4</h2>
+                <p>Texto 4</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        Texto de rodapé
+    </div>
+    
+</corpo>
+</html>

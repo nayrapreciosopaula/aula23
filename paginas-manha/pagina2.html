@@ -1,0 +1,168 @@
+<! DOCTYPE html>
+<html lang="en">
+    <cabeça>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <título>Documento</título><meta name="viewport" content="largura=largura do dispositivo, escala inicial=1.0" />
+        <estilo>
+        * {
+            tamanho de caixa: border-box;
+        }
+
+        corpo{
+            cor de fundo: bisque;
+        }
+
+ . linha::depois {
+            conteúdo: "";
+            claro: ambos;
+            exibição: bloco;
+        }
+
+        [class*="col-"] {
+            flutuar: à esquerda;
+            preenchimento: 15px;
+        }
+
+        html {
+            fonte-família: "Lucida Sans", sans-serif;
+        }
+
+ . cabeçalho {
+            cor de fundo: coral;
+            cor: #ffffff;
+            preenchimento: 15px;
+        }
+
+ . menu ul {
+            tipo de estilo de lista: nenhum;
+            margem: 0;
+            preenchimento: 0;
+        }
+
+ . menu li {
+            preenchimento: 8px;
+            margem-inferior: 7px;
+            cor de fundo: azul-flor-de-milho;
+            cor: anti-branco;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0,12), 0 1px 2px rgba(0, 0, 0, 0, 0,24);
+        }
+
+ . menu li:pairar {
+            cor de fundo: lightblue;
+        }
+
+ . à parte {
+            cor de fundo: lightblue;
+            preenchimento: 10px;
+            cor: chocolate;
+            alinhamento de texto: centro;
+            tamanho da fonte: 14px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0,12), 0 1px 2px rgba(0, 0, 0, 0, 0,24);
+        }
+
+ . rodapé {
+            cor de fundo: cadete azul;
+            cor: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+        }
+
+        .color-center{
+            background-color: cadetblue;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+
+        /* For desktop: */
+        .col-1 {
+            width: 8.33%;
+        }
+        .col-2 {
+            width: 16.66%;
+        }
+        .col-3 {
+            width: 25%;
+        }
+        .col-4 {
+            width: 33.33%;
+        }
+        .col-5 {
+            width: 41.66%;
+        }
+        .col-6 {
+            width: 50%;
+        }
+        .col-7 {
+            width: 58.33%;
+        }
+        .col-8 {
+            width: 66.66%;
+        }
+        .col-9 {
+            width: 75%;
+        }
+        .col-10 {
+            width: 83.33%;
+        }
+        .col-11 {
+            width: 91.66%;
+        }
+        .col-12 {
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+            body{
+                background-color: darkseagreen;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <div class="header">
+        <h1>Título</h1>
+        </div>
+
+        <div class="row">
+        <div class="col-3 menu">
+            <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+            <li>Menu 4</li>
+            </ul>
+        </div>
+
+        < div class="col-6 color-center">
+            <h1>Título do corpo</h1>
+            <p>
+            Texto do corpo
+            </p>
+        </div>
+
+        <div class="col-3 ">
+            <div class="de lado">
+            <h2>Titulo 1</h2>
+            <p>Texto 1</p>
+            <h2>Texto 2</h2>
+            <p>Texto 3</p>
+            <h2>Titulo 4</h2>
+            <p>Texto 4</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="footer">
+        <p>
+            Texto de rodapé
+        </p>
+        </div>
+    </corpo>
+</html>
